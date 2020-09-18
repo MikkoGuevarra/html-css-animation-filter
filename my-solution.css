@@ -125,22 +125,26 @@
  }
 
  /* Esercizio 13 */
- /* .ex-13-button:hover .ex-13-top-white {
-     animation: move 2s linear ;
+ .ex-13-button:hover .ex-13-top-white {
+     animation: move3 2s linear ;
  }
 
  .ex-13-button:hover .ex-13-bottom-white {
-     animation: move2 2s linear ;
+     animation: move4 2s linear ;
  }
 
- @keyframes move {
-     0% {left: 10%;}
-     50% {left: 100%;}
-     100% {left: 200%;}
+ @keyframes move3 {
+     0% {left: 10%; top: -10px;}
+     25% {left: 72%; top: 0;}
+     50% {left: 72%; top: 47px;}
+     75% {left: 0; top: 47px}
+     100% {left: 10%; top: -10px;}
  }
 
-  @keyframes move2 {
-     0% {right: 20%;}
-     50% {right: 100% ;}
-     100% {right: 200%;}
-  } */
+ @keyframes move4 {
+     0% {right: 20%; bottom: -10px;}
+     25% {right: 83%; bottom: 22px;}
+     50% {right: 26%; bottom: 54px;}
+     75% {right: -15%%; bottom: 35px;}
+     100% {right: 20%; bottom: -10px;}
+ }
