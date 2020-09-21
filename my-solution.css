@@ -85,7 +85,7 @@
 
  /* Esercizio 10 */
  .ex-10-icon {
-     animation: spinner 3s linear infinite reverse;
+     animation: spinner 2s linear infinite reverse;
 }
 
 @keyframes spinner {
@@ -95,12 +95,13 @@
 
 /* Esercizio 11 */
 .ex-11-icon:hover {
-    animation: spinner 3s linear;
+    animation: spinner 2s linear;
 }
 
 @keyframes spinner {
-   from {transform: rotate(0deg);}
-   to {transform: rotate(270deg);}
+   0% {transform: rotate(0deg);}
+   80% {transform: rotate(270deg);}
+   100% {transform: rotate(0deg);}
 }
 
 /* Esercizio 12 */
@@ -145,6 +146,6 @@
      0% {right: 20%; bottom: -10px;}
      25% {right: 83%; bottom: 22px;}
      50% {right: 26%; bottom: 54px;}
-     75% {right: -15%%; bottom: 35px;}
+     75% {right: -15%; bottom: 35px;}
      100% {right: 20%; bottom: -10px;}
  }
