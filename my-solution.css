@@ -95,10 +95,10 @@
 
 /* Esercizio 11 */
 .ex-11-icon:hover {
-    animation: spinner 2s linear;
+    animation: spinner2 2s linear;
 }
 
-@keyframes spinner {
+@keyframes spinner2 {
    0% {transform: rotate(0deg);}
    80% {transform: rotate(270deg);}
    100% {transform: rotate(0deg);}
